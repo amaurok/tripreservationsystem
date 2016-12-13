@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="login-service/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="login-service/src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="search-reservations-history-service/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="search-reservations-history-service/src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="reserve-room-program-service/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="reserve-room-program-service/src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="post-trip-program-service/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="post-trip-program-service/src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="search-rooms-service/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="search-rooms-service/src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="post-rooms-service/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="post-rooms-service/src/main/resources"/>
+	<classpathentry including="**/*.java" kind="src" path="search-trip-packages-service/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="search-trip-packages-service/src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar" sourcepath="M2_REPO/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/org/apache/camel/camel-jetty8/2.15.2/camel-jetty8-2.15.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/org/apache/camel/camel-test/2.15.2/camel-test-2.15.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/org/apache/camel/camel-core/2.15.2/camel-core-2.15.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/org/mongodb/morphia/morphia/1.0.1/morphia-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/org/mongodb/mongo-java-driver/3.0.3/mongo-java-driver-3.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/org/apache/camel/camel-jackson/2.15.2/camel-jackson-2.15.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/USER/.m2/repository/io/jsonwebtoken/jjwt/0.6.0/jjwt-0.6.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
