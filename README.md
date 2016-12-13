@@ -55,9 +55,15 @@ Go to the folder CODE/TripReservationSystem and run the command to build the ser
 Once you build the micro services, you can deploy and run them individually, in this way (the port number is up to you, you can change it):
 
 java -jar search-reservations-history-service/target/search-reservations-*.jar 5671 
+
 java -jar reserve-room-program-service/target/reserve-room-*.jar 5672 
+
 java -jar login-service/target/login-*.jar 5673 
+
 java -jar search-rooms-service/target/search-rooms-*.jar 5674 
+
 java -jar search-trip-packages-service/target/search-trip-*.jar 5675 
+
 java -jar post-rooms-service/target/post-rooms-*.jar 5676 
+
 java -jar post-trip-program-service/target/post-trip-*.jar 5677 
