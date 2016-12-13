@@ -26,12 +26,19 @@ The guest machine is configured with the ip 192.168.33.10.
 The solution is shipped with some REST clients, to perform tests. You can find the clients in the folder /CODE/clients
 
 These are the URLs of the micro services deployed in the box:
+
 http://192.168.33.10:5673/login
+
 http://192.168.33.10:5676/postRoom
+
 http://192.168.33.10:5677/postTripProgram
+
 http://192.168.33.10:5672/saveReservation
+
 http://192.168.33.10:5671/searchReservationsHistory
+
 http://192.168.33.10:5674/getRooms
+
 http://192.168.33.10:5675/getTripPackages
 
 If you deploy the solution in a different enviroment, you have to change the host name, and modify the port in the URL.
